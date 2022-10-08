@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
+  background-color: rgb(66, 78, 78);
+  background-image: url("./img/bg.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.displayedCard{
+  height: 10rem;
+  background-color: #0a0a0acc;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 19rem;
+  font-weight:bold;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  color: rgb(194, 187, 99);
+}
+
+.cardsDisplay{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  justify-items: center;
+
+}
+
+.cardImage{
+  width: 13rem;
+  height: 13rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  
+  
 }
