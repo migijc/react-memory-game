@@ -9,6 +9,7 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  font-family:roboto;
 }
 
 .displayedCard{
@@ -26,6 +27,10 @@ body {
   color: rgb(194, 187, 99);
 }
 
+.displayedCard:hover{
+  background-color: #676767d4;
+}
+
 .cardsDisplay{
   margin-top: 2rem;
   display: grid;
@@ -41,6 +46,11 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  
-  
 }
+
+.score{
+  color: white;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
