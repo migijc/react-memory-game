@@ -3,12 +3,6 @@ body {
   padding:0;
   background-color: rgb(66, 78, 78);
   background-image: url("./img/bg.jpg");
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family:roboto; */
-  /* width: 100%;
-  height: 100%; */
 }
 
 .App{
@@ -18,6 +12,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
+  font-family: roboto;
 }
 
 
