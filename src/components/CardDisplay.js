@@ -16,7 +16,7 @@ export default function CardsDisplay(props){
                 let urls=[]
                 let indexes=[]
                for(let i=0; i<= 12; i++){
-                    names.push(response[i].fullName)
+                    names.push(response[i].firstName)
                     urls.push(response[i].imageUrl)
                     indexes.push(response[i].id)
                }
@@ -62,10 +62,16 @@ export default function CardsDisplay(props){
 
     function handleCardClick(e){
         let returnArray=[...listOfCardsClicked]
+        console.log()
+        if(returnArray.includes(e.target.closest(".displayedCard").dataset.character)){
+            props.getLastRound(returnArray)
+             setListOfCardsClicked([])
+             return props.updateApp([])
+        }
         returnArray.push(e.target.closest(".displayedCard").dataset.character)
         setListOfCardsClicked(returnArray)
+        props.updateApp(returnArray)
     }
-
 
 
     return(
