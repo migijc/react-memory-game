@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-memory-game/static/css/main.abac57f0.css",
+    "main.css": "/react-memory-game/static/css/main.1c6028f4.css",
     "main.js": "/react-memory-game/static/js/main.e94a043e.js",
     "static/media/bg.jpg": "/react-memory-game/static/media/bg.4893aa88f35695fb7657.jpg",
     "static/media/roboto-latin-900italic.woff": "/react-memory-game/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
@@ -30,11 +30,11 @@
     "static/media/roboto-latin-400.woff2": "/react-memory-game/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-latin-900.woff2": "/react-memory-game/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "index.html": "/react-memory-game/index.html",
-    "main.abac57f0.css.map": "/react-memory-game/static/css/main.abac57f0.css.map",
+    "main.1c6028f4.css.map": "/react-memory-game/static/css/main.1c6028f4.css.map",
     "main.e94a043e.js.map": "/react-memory-game/static/js/main.e94a043e.js.map"
   },
   "entrypoints": [
-    "static/css/main.abac57f0.css",
+    "static/css/main.1c6028f4.css",
     "static/js/main.e94a043e.js"
   ]
 }
